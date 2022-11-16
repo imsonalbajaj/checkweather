@@ -1,0 +1,31 @@
+<%- include('partials/header') %> 
+
+  
+<main class="form-signin w-100 m-auto">
+    <form action="/" method="post">
+      <h1 class="h3 mb-3 fw-normal">Check the WEATHER</h1>
+  
+      <div class="form-floating">
+        <input type="text" class="form-control" id="floatingInput cityName" placeholder="name@example.com" name="cityName">
+        <label for="floatingInput cityName">type the city name: </label>
+      </div>
+      
+      
+      <!-- <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          
+        </ul>
+      </div> -->
+      
+      <button class="w-100 btn btn-lg btn-primary" type="submit" style="margin-top: 20;">GO</button>
+      <p class="mt-5 mb-3 text-muted">&copy; bootstrap 2017–2022</p>
+    </form>
+</main>
+  
+<%- include('partials/footer') %>
